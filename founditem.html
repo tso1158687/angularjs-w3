@@ -1,0 +1,5 @@
+<div class="result" ng-repeat="category in narrow.resultItems">
+    <span><span>{{category.short_name}}</span>{{category.name}}</span>
+    <br>{{category.description}}
+    <button ng-click="narrow.delete($index)">delete</button>
+</div>
